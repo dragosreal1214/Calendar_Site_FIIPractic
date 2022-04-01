@@ -94,3 +94,11 @@ html{
     border: 0.2rem solid #777;
     cursor: pointer;
 }
+
+.prev:hover {
+    cursor: pointer;
+}
+
+.next:hover {
+    cursor: pointer;
+}
