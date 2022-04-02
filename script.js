@@ -31,7 +31,7 @@ function computeCalendar(date) {
     for(let i = 1; i <= parseInt(noOfDaysInCurrMonth.toString()); i++) {
         let day = document.createElement("div");
         day.textContent = i.toString();
-        if(i.toString() === today.getDay().toString() &&
+        if(i.toString() === today.getDate().toString() &&
          today.getMonth() === currDate.getMonth() && today.getFullYear() === currDate.getFullYear()) {
             day.setAttribute("class", "today");
         }
