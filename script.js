@@ -38,7 +38,6 @@ function computeCalendar(date) {
         document.getElementById("days").appendChild(day);
     }
 
-    let lastDayIndex = new Date(date.getFullYear(), date.getMonth()+1,0).getDay();
 
     let nextDays = 42 - document.getElementById("days").childElementCount;
 
